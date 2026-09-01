@@ -1,4 +1,4 @@
-# Celebrity Solitaire
+# Soph's Solitaire
 
 A separate Klondike Solitaire game featuring reusable photographs of Mac Miller on Jacks, Tana Mongeau on Queens, Flea on Kings, and Tiger Woods on Aces.
 
