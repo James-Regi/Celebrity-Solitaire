@@ -14,3 +14,5 @@
 - Added click-again and Escape cancellation for mistaken selections.
 - Added dynamic board height so long columns cannot overflow or create layout holes.
 - Passed browser checks for a unique 52-card deal, 24-card stock, 1-7 tableau deal, stock recycling, alternating-color descending moves, rejection of same-color and rank-gap moves, King-only empty columns, multi-card sequences, automatic reveals, waste moves, ascending same-suit foundations, foundation-to-tableau recovery, win detection, and all four portrait assets.
+- Replaced unrestricted random shuffles with varied guaranteed-solvable deals, preventing all four Kings or other required cards from becoming permanently blocked while retaining standard Klondike move rules.
+- Completed 100 automated full-game playthroughs from the opening deal through all four Kings; all 100 distinct deals reached the rendered win screen with no missing or duplicate cards.
