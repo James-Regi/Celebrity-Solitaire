@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Celebrity Solitaire</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div><span class="eyebrow">A KLONDIKE CARD GAME</span><h1>Celebrity <em>Solitaire</em></h1></div>
+    <div class="toolbar"><span id="moves">0 MOVES</span><button id="restart">Restart</button><button id="newDeal">New Deal</button></div>
+  </header>
+  <main>
+    <section class="top-row" aria-label="Stock, waste, and foundations">
+      <div class="group"><div id="stock" class="pile"></div><div id="waste" class="pile"></div></div>
+      <div id="foundations" class="group foundations"></div>
+    </section>
+    <section id="tableau" class="tableau" aria-label="Tableau"></section>
+  </main>
+  <footer>JACK: MAC MILLER · QUEEN: TANA MONGEAU · KING: FLEA · ACE: TIGER WOODS · <button id="creditsButton">PHOTO CREDITS</button></footer>
+  <dialog id="credits"><button class="close" aria-label="Close">×</button><h2>Photo Credits</h2><div id="creditList"></div></dialog>
+  <div id="win" class="modal" hidden><div><span class="eyebrow">ALL FOUR SUITS CLEARED</span><h2>You Win</h2><p id="winMoves"></p><button id="playAgain">Play Again</button></div></div>
+  <script src="game.js?v=1"></script>
+</body>
+</html>
