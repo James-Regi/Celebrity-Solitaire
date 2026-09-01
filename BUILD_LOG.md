@@ -7,3 +7,10 @@
 - Assigned Mac Miller to Jacks, Tana Mongeau to Queens, Flea to Kings, and Tiger Woods to Aces.
 - Replaced requested copyrighted press and album images with Creative Commons photographs safe for public reuse.
 - Added local assets, visible credits, full attribution, restart/new-deal controls, move tracking, and win detection.
+
+## Full rules audit
+
+- Corrected destination-card clicks so selected cards and stacks move into tableau columns.
+- Added click-again and Escape cancellation for mistaken selections.
+- Added dynamic board height so long columns cannot overflow or create layout holes.
+- Passed browser checks for a unique 52-card deal, 24-card stock, 1-7 tableau deal, stock recycling, alternating-color descending moves, rejection of same-color and rank-gap moves, King-only empty columns, multi-card sequences, automatic reveals, waste moves, ascending same-suit foundations, foundation-to-tableau recovery, win detection, and all four portrait assets.
