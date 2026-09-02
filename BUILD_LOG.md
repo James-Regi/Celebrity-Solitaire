@@ -24,3 +24,4 @@
 - Added sliding card animations for draws, tableau moves, foundation moves, restarts, and new deals.
 - Added a visibly offset animated waste stack and an Undo button that restores draws, recycling, moves, reveals, foundations, move count, and win state.
 - Added Google-style auto-finish: when the stock and waste are empty and all tableau cards are face-up, remaining eligible cards animate to their foundations and complete the game automatically.
+- Replaced the overly helpful rank-progressive deal generator with an unbiased Fisher–Yates shuffle of the complete 52-card deck, producing standard varied Klondike difficulty instead of consistently easy deals.
