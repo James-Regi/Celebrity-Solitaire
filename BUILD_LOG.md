@@ -23,3 +23,4 @@
 - Randomized both suit and rank distribution across every new solvable deal, including varied rank chains, column assignments, and stock order.
 - Added sliding card animations for draws, tableau moves, foundation moves, restarts, and new deals.
 - Added a visibly offset animated waste stack and an Undo button that restores draws, recycling, moves, reveals, foundations, move count, and win state.
+- Added Google-style auto-finish: when the stock and waste are empty and all tableau cards are face-up, remaining eligible cards animate to their foundations and complete the game automatically.
