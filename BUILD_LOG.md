@@ -19,3 +19,4 @@
 - Customized the completed-game message to read **Regi is Impressed** with the requested chud-life subtitle.
 - Added rule-checked drag-and-drop for tableau stacks, the top waste card, and top foundation cards while preserving click and double-click controls.
 - Expanded double-click to automatically choose a legal foundation first or a fitting tableau column for single cards and movable stacks.
+- Replaced fragile native `dblclick` handling with persistent card-ID timing so auto-move still triggers when the first click re-renders the card element.
