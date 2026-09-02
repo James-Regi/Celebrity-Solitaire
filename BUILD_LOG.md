@@ -20,3 +20,5 @@
 - Added rule-checked drag-and-drop for tableau stacks, the top waste card, and top foundation cards while preserving click and double-click controls.
 - Expanded double-click to automatically choose a legal foundation first or a fitting tableau column for single cards and movable stacks.
 - Replaced fragile native `dblclick` handling with persistent card-ID timing so auto-move still triggers when the first click re-renders the card element.
+- Randomized both suit and rank distribution across every new solvable deal, including varied rank chains, column assignments, and stock order.
+- Added sliding card animations for draws, tableau moves, foundation moves, restarts, and new deals.
