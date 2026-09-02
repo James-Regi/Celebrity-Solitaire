@@ -22,3 +22,4 @@
 - Replaced fragile native `dblclick` handling with persistent card-ID timing so auto-move still triggers when the first click re-renders the card element.
 - Randomized both suit and rank distribution across every new solvable deal, including varied rank chains, column assignments, and stock order.
 - Added sliding card animations for draws, tableau moves, foundation moves, restarts, and new deals.
+- Added a visibly offset animated waste stack and an Undo button that restores draws, recycling, moves, reveals, foundations, move count, and win state.
